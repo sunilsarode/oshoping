@@ -9,8 +9,8 @@
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
                 <a class="nav-link" routerLink="/shopping-cart">Shopping Cart
-                    <span class="badge badge-warning badge-pill">
-                        {{ shoppingCartItemCount}}
+                    <span class="badge badge-warning badge-pill" *ngIf="cart$ | async as cart">
+                        {{ cart.totolaItemCount()}}
                     </span>
                 </a>
             </li>
