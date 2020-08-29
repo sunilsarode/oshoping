@@ -1,5 +1,5 @@
-import { Product } from './../../models/product';
-import { ProductService } from './../../product.service';
+import { Product } from '../../../shared/models/product';
+import { ProductService } from '../../../shared/services/product.service';
 import { Component, OnInit, OnDestroy, ViewChild } from '@angular/core';
 import { Subscription, from } from 'rxjs';
 import { MatTableDataSource } from '@angular/material/table';

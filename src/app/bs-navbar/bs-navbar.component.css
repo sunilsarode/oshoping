@@ -2,3 +2,11 @@
      cursor: pointer;
      pointer-events: auto;
 }
+.badge-pill{
+     
+     font-size: small;
+ }
+ .fa-shopping-cart{
+    font-size: x-large;
+    padding-right:10px ;
+ }
